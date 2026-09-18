@@ -1,0 +1,8 @@
+.DS_Store
+.claude/*
+!.claude/skills/
+.claude/skills/*
+!.claude/skills/company-creator
+.agents/skills/geetorus*
+.agents/skills/para-memory-files
+.geetorus/

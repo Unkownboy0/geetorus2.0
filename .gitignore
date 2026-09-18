@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+**/node_modules/
+.pnpm-store/
+.pnp
+.pnp.*
+
+# Build artifacts and caches
+dist/
+**/dist/
+build/
+**/build/
+.next/
+**/.next/
+out/
+**/out/
+.docusaurus/
+**/.docusaurus/
+storybook-static/
+**/storybook-static/
+*.tsbuildinfo
+**/*.tsbuildinfo
+.vite/
+**/.vite/
+coverage/
+**/coverage/
+test-results/
+playwright-report/
+
+# Databases & local state
+*.db
+*.db-wal
+*.db-shm
+data/
+**/data/
+.geetorus/
+.geetorus-local/
+.geetorus-runtime/
+
+# Environment configurations (protecting sensitive secrets)
+.env
+.env.local
+.env.*.local
+.dev.vars
+
+# IDE and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.tmp
+tmp/
+tmp-*
+cli/tmp/
